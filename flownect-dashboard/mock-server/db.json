@@ -1,0 +1,64 @@
+{
+  "dashboard": {
+    "metrics": {
+      "activeEmployees": 12,
+      "jobsToday": 28,
+      "avgTime": "2.3h",
+      "completionRate": "94%",
+      "revenue": "$4,280"
+    },
+    "performance": [],
+    "tracking": {
+      "activeEmployees": [
+        {
+          "id": 1,
+          "lat": 19.4326,
+          "lng": -99.1332,
+          "status": "working",
+          "battery": 85
+        },
+        {
+          "id": 2,
+          "lat": 19.4356,
+          "lng": -99.1412,
+          "status": "transit",
+          "battery": 72
+        }
+      ]
+    },
+    "routes": {},
+    "tasks": {},
+    "satisfaction": {
+      "categories": ["Punctuality", "Quality", "Communication", "Price", "Reliability"],
+      "current": [92, 88, 85, 78, 90],
+      "target": [95, 92, 90, 80, 93]
+    },
+    "revenue": {},
+    "alerts": []
+  },
+  "employees": [
+    {
+      "id": 1,
+      "name": "María García",
+      "email": "maria@flownect.com",
+      "role": "Senior Cleaner",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Juan Pérez",
+      "email": "juan@flownect.com",
+      "role": "Cleaner",
+      "status": "active"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "clientId": 1,
+      "employeeId": 1,
+      "date": "2024-01-15",
+      "status": "completed"
+    }
+  ]
+}
